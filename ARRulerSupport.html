@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — AR Ruler</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #444;
+      --bg: #fafafa;
+      --border: #e0e0e0;
+      --accent: #0d6efd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f2;
+        --muted: #b0b0b0;
+        --bg: #121212;
+        --border: #333;
+        --accent: #6ea8fe;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 3rem;
+      color: var(--text);
+      background: var(--bg);
+    }
+    h1 { font-size: 1.5rem; margin-top: 0; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+    .meta { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+      margin-top: 1rem;
+      background: color-mix(in srgb, var(--bg) 92%, var(--text) 8%);
+    }
+    ul { padding-left: 1.25rem; }
+  </style>
+</head>
+<body>
+  <h1>Support</h1>
+  <p class="meta"><strong>AR Ruler</strong><br>Indragni Solutions</p>
+
+  <p>AR Ruler helps you measure real-world distances and sizes using augmented reality on iPhone and iPad. Grant <strong>camera</strong> access when prompted so ARKit can detect surfaces and show measurements.</p>
+
+  <div class="card">
+    <p style="margin:0;"><strong>Need more help?</strong> Contact options are listed on <a href="https://indragnisolutions.com">indragnisolutions.com</a>. Include your <strong>iOS version</strong>, device model, and <strong>steps to reproduce</strong>; screenshots or screen recordings help.</p>
+  </div>
+
+  <h2>AR not working or “move device”</h2>
+  <ul>
+    <li>Use the app in a well-lit area with visible texture on floors or tables (plain white surfaces can be harder to detect).</li>
+    <li>Move the device slowly so ARKit can map the scene.</li>
+    <li>Restart the App and ensure no other app is blocking the camera.</li>
+  </ul>
+
+  <h2>Pro purchase and Restore</h2>
+  <ul>
+    <li>Pro is a <strong>one-time</strong> non-consumable purchase through Apple.</li>
+    <li>If Pro features do not appear after purchase, open the App → <strong>Settings</strong> (or the purchase screen) → <strong>Restore Purchases</strong>.</li>
+    <li>Use the same <strong>Apple ID</strong> you used to buy Pro, and ensure you are online when restoring.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="ARRulerPrivacy.html">Privacy Policy</a> for AR Ruler, including how camera and AR data are handled and how ads work in the free version.</p>
+
+  <h2>Disclaimer</h2>
+  <p>Measurements are for general reference. For critical dimensions, use a certified measuring tool. The App is not a substitute for professional surveying or engineering where precision is required.</p>
+</body>
+</html>
